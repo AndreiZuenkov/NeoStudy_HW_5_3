@@ -1,6 +1,6 @@
 package com.company;
 
-public enum Employees {
+public enum Employee {
 
     PRESIDENT(1, "Президент компании", 100000),
     MANAGER(2, "Менеджер по пражам", 50000),
@@ -11,7 +11,7 @@ public enum Employees {
     private final String jobDescription;
     private final double salary;
 
-    Employees(int id, String jobDescription, double salary){
+    Employee(int id, String jobDescription, double salary){
         this.id=id;
         this.jobDescription=jobDescription;
         this.salary=salary;

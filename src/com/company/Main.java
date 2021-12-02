@@ -4,14 +4,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Employees employees=Employees.MANAGER;
-        Employees employees2=Employees.PRESIDENT;
-        Employees employees3=Employees.WORKER;
-        Employees employees4=Employees.PROGRAMMER;
+        Employee employee = Employee.MANAGER;
+        Employee employee2 = Employee.PRESIDENT;
+        Employee employee3 = Employee.WORKER;
+        Employee employee4 = Employee.PROGRAMMER;
 
-        System.out.println(employees.getJobDescription() + " " + employees.getId() + " " +  employees.getSalary());
-        System.out.println(employees2.getJobDescription() + " " + employees2.getId() + " " +  employees2.getSalary());
-        System.out.println(employees3.getJobDescription() + " " + employees3.getId() + " " +  employees3.getSalary());
-        System.out.println(employees4.getJobDescription() + " " + employees4.getId() + " " +  employees4.getSalary());
+        System.out.println(employee.getJobDescription() + " " + employee.getId() + " " +  employee.getSalary());
+        System.out.println(employee2.getJobDescription() + " " + employee2.getId() + " " +  employee2.getSalary());
+        System.out.println(employee3.getJobDescription() + " " + employee3.getId() + " " +  employee3.getSalary());
+        System.out.println(employee4.getJobDescription() + " " + employee4.getId() + " " +  employee4.getSalary());
     }
 }
